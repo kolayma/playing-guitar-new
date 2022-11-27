@@ -403,9 +403,22 @@ template {
 }
 
 .second-section {
-  position: relative;
+  max-width: 1140px;
+  margin: 0 auto;
+  background: #F0F0F0;
+  overflow: hidden;
 }
 .second-section__cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.second-section__icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.second-section__icons-cup {
   display: flex;
   flex-direction: row;
 }
@@ -597,4 +610,12 @@ template {
 .name-guitar {
   font-size: 36px;
   flex-direction: column;
+}
+
+.icon-figures {
+  font-size: 48px;
+}
+
+.icon-text {
+  font-size: 18px;
 }/*# sourceMappingURL=style.css.map */
