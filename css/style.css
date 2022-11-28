@@ -403,10 +403,10 @@ template {
 }
 
 .second-section {
+  position: relative;
   max-width: 1140px;
   margin: 0 auto;
   background: #F0F0F0;
-  overflow: hidden;
 }
 .second-section__cards {
   display: flex;
@@ -421,6 +421,12 @@ template {
 .second-section__icons-cup {
   display: flex;
   flex-direction: row;
+}
+.second-section__third-elipse {
+  position: absolute;
+  top: 350px;
+  left: -80px;
+  z-index: -1;
 }
 
 .nav-menu__list {

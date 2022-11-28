@@ -39,10 +39,11 @@ $color-orange: #F28B64
         right: -120px
         top: 650px
 .second-section
+    position: relative
     max-width: 1140px
     margin: 0 auto
     background: #F0F0F0 
-    overflow: hidden
+    //overflow: hidden
     &__cards
         display: flex
         flex-direction: row
@@ -53,7 +54,13 @@ $color-orange: #F28B64
         justify-content: space-between
     &__icons-cup
         display: flex
-        flex-direction: row   
+        flex-direction: row  
+    &__third-elipse 
+        position: absolute
+        top: 350px
+        left: -80px
+        z-index: -1
+
         
 .nav-menu
     &__list
