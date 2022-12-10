@@ -442,6 +442,13 @@ template {
   z-index: -1;
 }
 
+.third-section {
+  min-height: 700px;
+}
+.third-section__container {
+  display: flex;
+}
+
 .nav-menu__list {
   display: flex;
   flex-direction: row;
