@@ -364,6 +364,11 @@ template {
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+
 .container {
   max-width: 1140px;
   margin: 0 auto;
@@ -458,6 +463,9 @@ template {
   padding-left: 167px;
   padding-top: 46px;
 }
+.third-section__text-box {
+  margin-bottom: 30px;
+}
 .third-section__text-box-text {
   font-size: 18px;
   max-width: 480px;
@@ -491,6 +499,7 @@ template {
 .nav-menu__list-item {
   margin-right: 64px;
   font-size: 18px;
+  font-weight: bold;
 }
 .nav-menu__list-item:last-child {
   margin-right: 0;
@@ -584,6 +593,7 @@ template {
 .title {
   font-size: 72px;
   position: relative;
+  font-weight: bold;
 }
 .title__hr {
   width: 65px;
@@ -611,6 +621,7 @@ template {
   border: none;
   font-size: 18px;
   color: white;
+  font-weight: bold;
 }
 .buttons__icon-btn {
   display: inline-flex;
@@ -667,6 +678,7 @@ template {
   position: absolute;
   top: 144px;
   right: -45px;
+  font-weight: bold;
 }
 
 .cards-item-orange {
@@ -690,6 +702,7 @@ template {
 }
 .icons-item__text span {
   font-size: 48px;
+  font-weight: bold;
 }
 
 .footer {

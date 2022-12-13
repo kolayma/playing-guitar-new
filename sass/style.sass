@@ -4,8 +4,21 @@
 *
     box-sizing: border-box
 
+// @font-face 
+//     font-family: Montserrat
+//     src: url('../fonts/')
+//     font-weight: 400
+//     font-style: normal    
+// @font-face 
+//     font-family: Montserrat
+//     src: local("Montserrat"),
+//         url(Montserrat-SemiBold.ttf) format("truetype")
+//     font-weight: bold
+//     font-style: normal    
 
-    
+body
+    font-family: 'Montserrat', sans-serif
+    font-weight: 400
 
 $color-blue: #5290EA
 $color-orange: #F28B64
@@ -87,10 +100,11 @@ $color-orange: #F28B64
         justify-content: space-between
         padding-left: 167px
         padding-top: 46px
+    &__text-box
+        margin-bottom: 30px
     &__text-box-text
         font-size: 18px
         max-width: 480px
-        //height: 310px
         margin-bottom: 30px
     &__title
         margin-bottom: 20px
@@ -116,6 +130,7 @@ $color-orange: #F28B64
     &__list-item
         margin-right: 64px
         font-size: 18px
+        font-weight: bold
         &:last-child
             margin-right: 0
 
@@ -193,6 +208,7 @@ $color-orange: #F28B64
 .title
     font-size: 72px  
     position: relative 
+    font-weight: bold
     
     &__hr
         width: 65px
@@ -216,6 +232,7 @@ $color-orange: #F28B64
         border: none
         font-size: 18px
         color: white
+        font-weight: bold
     &__icon-btn
         display: inline-flex
         align-items: center
@@ -260,6 +277,7 @@ $color-orange: #F28B64
         position: absolute
         top: 144px
         right: -45px
+        font-weight: bold
 .cards-item-orange
     background: $color-orange
 .cards-item-blue
@@ -275,6 +293,7 @@ $color-orange: #F28B64
         font-size: 18px
         span
             font-size: 48px
+            font-weight: bold
 .footer
     position: relative
     &__img
