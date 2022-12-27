@@ -62,6 +62,7 @@ $color-orange: #F28B64
         margin-bottom: 40px
     &__cards-box
         display: inline-flex
+        justify-content: center
         margin-bottom: 25px
     &__cards-item
         margin-right: 30px
@@ -313,15 +314,52 @@ $color-orange: #F28B64
 @media (max-width: 1199px)
     .container
         width: 960px
+    .main-section
+        min-height: 580px    
     .left-wrapper
-        &__img
-            width: 650px
+        img
+            width: 615px
+        
+        &__rectangle-blue
+            width: 500px
+            height: 200px    
+        &__rectangle-orange
+            width: 530px
+            height: 200px
+        &__rectangle-grey
+            width: 500px
+            height: 200px
+    .right-wrapper
+        right: 20px
+    .main-section
+        &__first-elipse 
+            right: 10px 
+        &__second-elipse
+            top: 516px
+    .second-section
+        min-height: 600px
+        &__cards-box
+            display: flex
+            justify-content: center        
+    .cards-item
+        width: 300px
+        height: 300px 
+    .cards-item__img
+        height: 270px
+    .cards-item__text
+        top: 120px
+        font-size: 30px
+    .icons-item__img
+        margin-right: 10px
+    .third-section__container
+        padding-left: 40px
+    .third-section__text-box-text
+        max-width: 450px
+    .footer__img
+        left: -188px
+    .footer__wrapper
+        max-width: 488px            
 
-    &__rectangle-blue
-
-    &__rectangle-orange
-
-    &__rectangle-grey
 
 @media (max-width: 991px)
     .container
