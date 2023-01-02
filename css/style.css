@@ -903,6 +903,39 @@ body {
   .container {
     width: 540px;
   }
+  .nav-menu {
+    display: none;
+  }
+  .hamburger {
+    width: 30px;
+    position: absolute;
+    top: 40px;
+    right: 30px;
+    height: 14px;
+  }
+  .hamburger span {
+    height: 2px;
+    width: 100%;
+    display: block;
+    background: black;
+    margin-bottom: 4px;
+    transition: 0.5s all;
+  }
+  .hamburger span:last-child {
+    margin-bottom: 0;
+  }
+  .hamburger_active span {
+    margin-bottom: -2px;
+  }
+  .hamburger_active span:nth-child(1) {
+    transform: translateY(3px) rotate(-45deg);
+  }
+  .hamburger_active span:nth-child(2) {
+    display: none;
+  }
+  .hamburger_active span:nth-child(3) {
+    transform: translateY(3px) rotate(45deg);
+  }
 }
 @media (max-width: 575px) {
   .container {
