@@ -819,14 +819,21 @@ body {
   }
   .left-wrapper__rectangle-blue {
     top: 117px;
-    left: -100px;
+    left: -84px;
+    width: 419px;
+    height: 135px;
   }
   .left-wrapper__rectangle-orange {
-    top: 155px;
+    top: 128px;
     left: -50px;
+    width: 439px;
+    height: 148px;
   }
   .left-wrapper__rectangle-grey {
-    top: 170px;
+    top: 142px;
+    left: -25px;
+    width: 455px;
+    height: 158px;
   }
   .title {
     font-size: 48px;
@@ -835,7 +842,8 @@ body {
     bottom: 43px;
   }
   .buttons {
-    display: block;
+    display: flex;
+    justify-content: center;
   }
   .buttons__main-btn {
     margin-bottom: 20px;
@@ -845,6 +853,9 @@ body {
   }
   .right-wrapper__text {
     font-size: 12px;
+  }
+  .right-wrapper__button {
+    display: block;
   }
   .elipse {
     width: 160px;
